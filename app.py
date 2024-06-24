@@ -74,7 +74,7 @@ def main():
         
 
         
-        st.write(f"Prediction: The player has an overall rating of {prediction[0]}, approximately {round(prediction[0])} and is considered a {round(prediction[0]/100*5)} star player.")
+        st.write(f"Prediction: The player has an overall rating {round(prediction[0])} and is considered a {round(prediction[0]/100*5)} star player.")
         st.write(f"Confidence Level: {93.90: .2f}%")
 
         if st.button("Predict Again"):
